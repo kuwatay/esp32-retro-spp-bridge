@@ -4,6 +4,8 @@ A Bluetooth Classic SPP bridge for retro computers, terminals, and embedded syst
 
 This project turns an ESP32 into a transparent serial bridge with a Hayes-style command interface inspired by classic serial modems.
 
+![System Overview](docs/images/system-overview.png)
+
 ## Features
 
 * Bluetooth Classic SPP support
@@ -134,6 +136,14 @@ enables immediate escape detection.
 AT command reference:
 
 * `docs/AT_COMMANDS.md`
+
+## About This Project
+
+This project was created with extensive assistance from OpenAI ChatGPT.
+
+ChatGPT was used as a collaborative development tool during the design, implementation, testing, and documentation phases of the project.
+
+Final design decisions and validation were performed by the project author.
 
 ## License
 
