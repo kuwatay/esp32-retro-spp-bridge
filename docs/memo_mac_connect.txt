@@ -1,0 +1,19 @@
+$ defaults read /Library/Preferences/com.apple.Bluetooth
+{
+    BluetoothAutoSeekKeyboard = 1;
+    BluetoothAutoSeekPointingDevice = 1;
+    HID15msWithHeadsetEnabled = 0;
+    PersistentPorts =     {
+        "30:AE:A4:21:2A:DE" =         {
+            BSDName = "ESP32_SPP_TEST";
+            BTAddress = {length = 6, bytes = 0x30aea4212ade};
+            RFCOMMChannel = 1;
+        };
+    };
+    SpatialSoundProfileAllowed = 1;
+    btvcDefaultAdvRSSI = "-60";
+    enableGameControllerAutoSwitchMode = 1;
+    enableGameControllerUSBBluetoothPairing = 1;
+    move3PPLEMSToLegacyMode = 1;
+    move3PPLEMSToLegacyModeSerial = 1;
+}
